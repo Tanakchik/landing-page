@@ -51,7 +51,7 @@ body {
   img{
     height: 200px;
     width: 400px;
-    margin: -220px 500px ;
+    margin: -235px 500px ;
     padding-top: 10px;
     
   }
@@ -63,9 +63,80 @@ body {
     width: 80px;
     height: 25px;
     border-radius: 8px;
+    margin-top: 15px;
   }
 
   h2{
     text-align: center;
   }
+  #square{
+    height: 100px;
+    width: 200x;
+    border: 2px solid #3806db;
+    border-radius: 8px;
+    margin-left: 0px;
+    margin-top: 10px;
+    
+   
+    
+  }
+  .subtext{
+    /*background-color: aqua;*/
+    height: 200px;
+    width: 100%;
+    /*display: table;*/
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+  }
+  .text{
+    /*display: table-cell;*/
+    text-align: center;
+    /*background-color: #df1033;*/
+    margin-top: 4px;
+    
+    
+   }
+  .paragraph{
+    background-color: rgb(214, 202, 202);
+    height: 250px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .last{
+    background-color: blue;
+    color: white;
+    /*height: 100px;*/
+    width: 50%;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 300px;
+    
+    
+  }
+  footer{
+    background-color: rgb(87, 167, 236);
+    text-align: center;
+    padding: 0;
+    margin-top: 100px;
+  }
+  .sign_up{
+    border: 2px solid white;
+    margin: 10px 50px;
   
+  }
+  .button:hover {
+    background-color:#df1033;
+    transition: 0.7s;
+}
+.sign_up:hover {
+  background-color:#df1033;
+  transition: 0.7s;
+}
